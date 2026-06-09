@@ -1,3 +1,6 @@
 [submodule "GI/gi-2026-etf"]
 	path = GI/gi-2026-etf
 	url = https://github.com/vladimirkovacevic/gi-2026-etf
+[submodule "GI/ANOA-ANO"]
+	path = GI/ANOA-ANO
+	url = https://github.com/MegatronJeremy/ANOA-ANO
