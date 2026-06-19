@@ -10,3 +10,6 @@
 [submodule "RIP"]
 	path = RIP
 	url = https://github.com/MegatronJeremy/RIP
+[submodule "RG2/Snowstorm-Engine"]
+	path = RG2/Snowstorm-Engine
+	url = https://github.com/MegatronJeremy/Snowstorm-Engine
