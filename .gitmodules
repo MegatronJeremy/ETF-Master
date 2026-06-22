@@ -1,9 +1,3 @@
-[submodule "GI/gi-2026-etf"]
-	path = GI/gi-2026-etf
-	url = https://github.com/vladimirkovacevic/gi-2026-etf
-[submodule "GI/ANOA-ANO"]
-	path = GI/ANOA-ANO
-	url = https://github.com/MegatronJeremy/ANOA-ANO
 [submodule "PSZ/Sea-Of-Sorrow"]
 	path = PSZ/Sea-Of-Sorrow
 	url = https://github.com/MegatronJeremy/Sea-Of-Sorrow
@@ -13,3 +7,6 @@
 [submodule "RG2"]
 	path = RG2
 	url = https://github.com/MegatronJeremy/RG2
+[submodule "GI"]
+	path = GI
+	url = https://github.com/MegatronJeremy/GI
