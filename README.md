@@ -12,7 +12,7 @@ folderu; pravi projekti (timski / za predaju) i tuđi materijali su uključeni k
 | [`GI/`](GI) | Genomska informatika | scRNA-seq analiza imunog odgovora na nanoplastiku (PBMC) | [ANOA-ANO](https://github.com/MegatronJeremy/ANOA-ANO) ⋅ materijal: [gi-2026-etf](https://github.com/vladimirkovacevic/gi-2026-etf) |
 | [`PSZ/`](PSZ) | Pronalaženje skrivenog znanja | Scraping + analiza + ML nad podacima o beloj tehnici | [Sea-Of-Sorrow](https://github.com/MegatronJeremy/Sea-Of-Sorrow) |
 | [`RG2/`](RG2) | Računarska grafika 2 | Render engine + materijali i domaći | [RG2](https://github.com/MegatronJeremy/RG2) ⋅ projekat: [Snowstorm-Engine](https://github.com/MegatronJeremy/Snowstorm-Engine) |
-| [`RIP/`](RIP) | Kurs prof. Veljka Milutinovića (dataflow / Maxeler) | Domaći (Prefix Scan) + materijali | [RIP](https://github.com/MegatronJeremy/RIP) |
+| [`RIP/`](RIP) | Razvoj i primena računarskih akceleratora (prof. V. Milutinović; dataflow / Maxeler) | Domaći (Prefix Scan) + materijali | [RIP](https://github.com/MegatronJeremy/RIP) |
 
 ## Submoduli
 
