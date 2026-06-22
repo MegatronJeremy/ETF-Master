@@ -1,6 +1,3 @@
-[submodule "PSZ/Sea-Of-Sorrow"]
-	path = PSZ/Sea-Of-Sorrow
-	url = https://github.com/MegatronJeremy/Sea-Of-Sorrow
 [submodule "RIP"]
 	path = RIP
 	url = https://github.com/MegatronJeremy/RIP
@@ -10,3 +7,6 @@
 [submodule "GI"]
 	path = GI
 	url = https://github.com/MegatronJeremy/GI
+[submodule "PSZ"]
+	path = PSZ
+	url = https://github.com/MegatronJeremy/PSZ

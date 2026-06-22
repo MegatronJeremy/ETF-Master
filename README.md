@@ -1,31 +1,34 @@
 # ETF-Master
 
 Materijali, domaći i projekti sa master studija na [Elektrotehničkom fakultetu
-Univerziteta u Beogradu](https://www.etf.bg.ac.rs/). Svaki predmet je u svom
-folderu; pravi projekti (timski / za predaju) i tuđi materijali su uključeni kao
-**git submoduli**.
+Univerziteta u Beogradu](https://www.etf.bg.ac.rs/). **Svaki predmet je samostalan,
+nezavisno klonabilan git repo**, uključen u ovaj meta-repo kao submodule; pravi
+projekti su dalje ugnježdeni submoduli unutar repoa svog predmeta.
 
 ## Predmeti
 
-| Folder | Predmet | Projekat / sadržaj | Repo |
+| Folder | Predmet | Projekat / sadržaj | Repo predmeta |
 | --- | --- | --- | --- |
-| [`GI/`](GI) | Genomska informatika | scRNA-seq analiza imunog odgovora na nanoplastiku (PBMC) | [ANOA-ANO](https://github.com/MegatronJeremy/ANOA-ANO) ⋅ materijal: [gi-2026-etf](https://github.com/vladimirkovacevic/gi-2026-etf) |
-| [`PSZ/`](PSZ) | Pronalaženje skrivenog znanja | Scraping + analiza + ML nad podacima o beloj tehnici | [Sea-Of-Sorrow](https://github.com/MegatronJeremy/Sea-Of-Sorrow) |
-| [`RG2/`](RG2) | Računarska grafika 2 | Render engine + materijali i domaći | [RG2](https://github.com/MegatronJeremy/RG2) ⋅ projekat: [Snowstorm-Engine](https://github.com/MegatronJeremy/Snowstorm-Engine) |
+| [`GI/`](GI) | Genomska informatika | scRNA-seq analiza imunog odgovora na nanoplastiku (PBMC) | [GI](https://github.com/MegatronJeremy/GI) |
+| [`PSZ/`](PSZ) | Pronalaženje skrivenog znanja | Scraping + analiza + ML nad podacima o beloj tehnici | [PSZ](https://github.com/MegatronJeremy/PSZ) |
+| [`RG2/`](RG2) | Računarska grafika 2 | Render engine + materijali i domaći | [RG2](https://github.com/MegatronJeremy/RG2) |
 | [`RIP/`](RIP) | Razvoj i primena računarskih akceleratora (prof. V. Milutinović; dataflow / Maxeler) | Domaći (Prefix Scan) + materijali | [RIP](https://github.com/MegatronJeremy/RIP) |
 
 ## Submoduli
 
-Repo trenutno koristi dva obrasca (videti napomenu o strukturi ispod):
+Svaki predmet je submodule meta-repoa; projekti i tuđi materijali su ugnježdeni
+submoduli unutar repoa predmeta.
 
 | Putanja | Tip | Upstream |
 | --- | --- | --- |
+| `GI` | predmet | https://github.com/MegatronJeremy/GI |
 | `GI/gi-2026-etf` | tuđi materijal (prof. V. Kovačević) | https://github.com/vladimirkovacevic/gi-2026-etf |
 | `GI/ANOA-ANO` | projekat | https://github.com/MegatronJeremy/ANOA-ANO |
+| `PSZ` | predmet | https://github.com/MegatronJeremy/PSZ |
 | `PSZ/Sea-Of-Sorrow` | projekat | https://github.com/MegatronJeremy/Sea-Of-Sorrow |
-| `RG2` | ceo folder predmeta | https://github.com/MegatronJeremy/RG2 |
-| `RG2/Snowstorm-Engine` | projekat (ugnježden u RG2) | https://github.com/MegatronJeremy/Snowstorm-Engine |
-| `RIP` | ceo folder predmeta | https://github.com/MegatronJeremy/RIP |
+| `RG2` | predmet | https://github.com/MegatronJeremy/RG2 |
+| `RG2/Snowstorm-Engine` | projekat | https://github.com/MegatronJeremy/Snowstorm-Engine |
+| `RIP` | predmet | https://github.com/MegatronJeremy/RIP |
 
 ## Kloniranje
 
@@ -48,8 +51,8 @@ git pull
 git submodule update --init --recursive
 ```
 
-## Napomena o strukturi
+## Struktura
 
-Organizacija submodula je trenutno nekonzistentna: `GI` i `PSZ` su obične foldere
-sa projektom kao submodulom, dok su `RG2` i `RIP` *ceo folder kao submodul*.
-Planirano je ujednačavanje na jedan obrazac.
+Jedinstven obrazac: **svaki predmet = jedan submodule** (`GI`, `PSZ`, `RG2`, `RIP`),
+a unutar svakog su projekti i tuđi materijali ugnježdeni submoduli. Tako se svaki
+predmet može klonirati i deliti nezavisno, dok meta-repo služi kao kišobran.
